@@ -1,0 +1,19 @@
+// Variable Overrides 
+$theme-colors: (
+  "primary": #6c757d
+);
+$body-bg: #ededed;
+
+// Variable Overrides
+
+// Bootstrap Sass Imports
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.jumbotron {
+    border-top: 3px solid rgb(219, 219, 219);
+    background-image: url("https://static3.depositphotos.com/1007420/220/i/950/depositphotos_2207372-stock-photo-ghost-pirate-ship-sailing-and.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
