@@ -1,19 +1,79 @@
-// Variable Overrides 
-$theme-colors: (
-  "primary": #6c757d
-);
-$body-bg: #ededed;
-
 // Variable Overrides
 
 // Bootstrap Sass Imports
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+.nav-link:hover {
+    text-decoration: underline; ;
+}
+
+h1 {
+    font-family: 'Poor Story', cursive;
+    font-size: 100px;
+}
+
+.lead {
+    font-family: 'Courier New', Courier, monospace; 
+}
 .jumbotron {
-    border-top: 3px solid rgb(219, 219, 219);
-    background-image: url("https://static3.depositphotos.com/1007420/220/i/950/depositphotos_2207372-stock-photo-ghost-pirate-ship-sailing-and.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
+    color: white;
+    background: url("../media/pirate-ship.jpg") no-repeat center;
+    text-align: center;
     background-size: cover;
 }
+
+.container {
+    margin-bottom: 100px;
+}
+
+.pirate-border {
+    border-right: 1px lightgray solid;
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+h4 {
+        margin-right: 70px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        font-weight: bold
+    }
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+.byline {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3px;
+}
+.source { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.v1 {
+    border-left: 2px solid grey;
+    position: absolute;
+    left: 35%;
+    margin-right: 15px;
+}
+
+footer {
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top:5px;
+    }
